@@ -5,9 +5,9 @@
 # Join Telegram  ♾︎ 
 [![Static Badge](https://img.shields.io/badge/Telegram-Airdrop◾unlimited-Link?style=for-the-badge&logo=Telegram&logoColor=white&logoSize=auto&color=blue)](https://t.me/UNLXairdop)
 
-# BLUM-BOT | via TERMUX 
+# FREEDOGS-BOT | via TERMUX 
 
-## Tools by zuydd
+## Tools by Ephraim1234
 
 # 🛠️ Petunjuk pengintstallan 
 
@@ -17,7 +17,7 @@
 - langkah 2: `install nodejs`
 - langkah 3: `git clone https://github.com/Rextouin-R/FREEDOGS/`
 - langkah 4:  ,Buka file `cd FREEDOGS` lalu install moduls `npm install`
-- langkah 5:  ,Lakukan mengisian `user_id` atau `query_id` di `nano data.txt`
+- langkah 5:  ,Lakukan mengisian `user` atau `query_id` di `nano data.txt`
 
 ## 💾 Cara menambahkan data akun
 
