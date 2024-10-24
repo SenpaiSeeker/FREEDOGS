@@ -25,7 +25,7 @@
 
 > Semua data yang perlu Anda impor terletak di file di folder 📁 `data.txt`
 
-- [users.txt](data.txt) : berisi daftar userakun `query_id` setiap baris berhubungan dengan satu akun
+- [data.txt](data.txt) : berisi daftar userakun `query_id` setiap baris berhubungan dengan satu akun
 - [token.json](src/data/token.json) : berisi daftar token yang dihasilkan dari `user_id` atau `query_id` Token akan dibuat secara otomatis saat Anda menjalankan alat ini
 
 ## >\_ Perintah dan fungsi 
