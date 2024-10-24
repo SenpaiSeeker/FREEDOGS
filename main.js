@@ -5,6 +5,7 @@ const readline = require("readline");
 const { DateTime } = require("luxon");
 const crypto = require("crypto");
 const winston = require("winston");
+const printBanner = require("./config/banner");
 
 // Configure Winston logger
 const logger = winston.createLogger({
@@ -297,5 +298,12 @@ class FreeDogs {
 const client = new FreeDogs();
 client.main().catch((err) => {
   logger.error(err.message);
+  process.exit(1);
+});
+
+printBanner();
+const client = new FreeDogs();
+client.main().catch((err) => {
+  console.error(err.message);
   process.exit(1);
 });
