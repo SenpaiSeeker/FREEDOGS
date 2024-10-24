@@ -295,15 +295,9 @@ class FreeDogs {
   }
 }
 
-const client = new FreeDogs();
-client.main().catch((err) => {
-  logger.error(err.message);
-  process.exit(1);
-});
-
 printBanner();
 const client = new FreeDogs();
 client.main().catch((err) => {
-  console.error(err.message);
+  logger.error(err.message);
   process.exit(1);
 });
